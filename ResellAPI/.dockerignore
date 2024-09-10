@@ -1,0 +1,16 @@
+**/wwwroot
+**/appsettings*.json
+**/.vs
+**/.vscode
+**/bin
+**/obj
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+**/*.md
+**/*.*suo
+**/*.*user
+**/*.dbmdl
+.git
+.gitignore
