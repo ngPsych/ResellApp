@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\ResellAPI\\ResellAPI.csproj": {}
+    "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\OrderService\\OrderService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\ResellAPI\\ResellAPI.csproj": {
+    "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\OrderService\\OrderService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\ResellAPI\\ResellAPI.csproj",
-        "projectName": "ResellAPI",
-        "projectPath": "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\ResellAPI\\ResellAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\OrderService\\OrderService.csproj",
+        "projectName": "OrderService",
+        "projectPath": "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\OrderService\\OrderService.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\ResellAPI\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\source\\repos\\ngPsych\\ResellApp\\OrderService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,23 +46,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
